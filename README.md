@@ -20,12 +20,18 @@ macaw 路由
 
 不了解git下载的直接下载解压缩。
 
-如果了解composer工具的，输入：
+第一步：如果了解composer工具的，输入：
 
 ```html
 composer require tokyo-lei/amaya
 ```
-然后进行依赖下载（包括解压缩必须用composer工具执行）：
+第二步：然后进行依赖下载（包括解压缩必须用composer工具执行）：
 ```html
 composer update
 ```
+
+如果第一步下载报错，请尝试下载压缩包执行。
+
+
+
+
