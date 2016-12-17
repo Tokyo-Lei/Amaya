@@ -1,12 +1,21 @@
 {
+    "name": "tokyo-lei/amaya",
+    "description": "Development based on composer For Amaya PHP Framework",
+    "type": "project",
     "require": {
         "catfan/Medoo": "^1.1",
         "filp/whoops": "^2.1",
         "monolog/monolog": "^1.22",
         "noahbuscher/macaw": "dev-master",
         "twig/twig": "~1.0"
-
     },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ono Naoki",
+            "email": "tokyo-live@outlook.com"
+        }
+    ],
     "autoload": {
         "classmap": [
             "app/home/controllers",
@@ -15,10 +24,7 @@
         ],
         "files":[
             "system/Helper.php"
-
         ]
-
-    }
-
-
+    },
+    "minimum-stability": "dev"
 }
