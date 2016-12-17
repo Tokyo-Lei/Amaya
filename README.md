@@ -21,6 +21,9 @@ macaw 路由
 如果了解composer工具的，输入：
 
 ```html
-composer reunt tokyo-lei/amaya
+composer require tokyo-lei/amaya
 ```
-
+然后进行依赖下载：
+```html
+composer update
+```
