@@ -14,7 +14,7 @@
             "system"
         ],
         "files":[
-            "system/random_string.php"
+            "system/Helper.php"
 
         ]
 

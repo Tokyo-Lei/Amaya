@@ -32,7 +32,7 @@ class HomeController extends ShareControllers
         $loader = new Twig_Loader_Filesystem(VIEW_PATH);
         $twig = new Twig_Environment($loader, array('cache' => BASE_PATH.'/cache',));
         echo $twig->render('home.html', array('db' => $db));
-        require VIEW_PATH.'home.php';
+        //require VIEW_PATH.'home.php';
 
     }
 
