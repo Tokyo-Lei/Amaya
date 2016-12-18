@@ -36,6 +36,8 @@ composer create-project tokyo-lei/amaya 您的目录名称 dev-master --prefer-d
 composer update
 ```
 
+最后，PHP服务器环境请对应public文件跑起。
+
 
 ## 目录架构
 ```html
