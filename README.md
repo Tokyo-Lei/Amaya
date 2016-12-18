@@ -37,10 +37,12 @@ composer create-project tokyo-lei/amaya 您的目录名称 dev-master --prefer-d
 
 ## 目录架构
 ```html
-   app 程序前后端放置文件
-   config 各种配置
-   public 域名绑定目录，包括所有图片样式放置文件
-   system 各种函数、类目录，注意！没有核心文件 ：D
+   |-app 程序前后端放置文件
+      |- admin 后端文件
+      |- home 前端文件
+   |-config 各种配置
+   |-public 域名绑定目录，包括所有图片样式放置文件
+   |-system 各种函数、类目录，注意！没有核心文件 ：D
    .gitignore  git上传过滤文件 （可以删除）
    bootstrap.php 框架的各种加载启动文件
    composer.json  composer 配置文件，是框架重点的东西
@@ -48,6 +50,7 @@ composer create-project tokyo-lei/amaya 您的目录名称 dev-master --prefer-d
 ```
 当下载后，目录自动生成几个文件：
 ```html
+   vendor composer 第三方库
    cache 前台模版缓存
    logs 日志文件
 ```
