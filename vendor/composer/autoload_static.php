@@ -8,7 +8,7 @@ class ComposerStaticInit0767f4c444aad300f18a3bbd197e38b3
 {
     public static $files = array (
         'c7359326b6707d98bdc176bf9ddeaebf' => __DIR__ . '/..' . '/catfan/medoo/medoo.php',
-        '0220e143b2fcd1360b11a537000cb297' => __DIR__ . '/../..' . '/system/random_string.php',
+        '45dbb9c2191f3c04de49704b75813547' => __DIR__ . '/../..' . '/system/Helper.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -61,6 +61,7 @@ class ComposerStaticInit0767f4c444aad300f18a3bbd197e38b3
 
     public static $classMap = array (
         'Article' => __DIR__ . '/../..' . '/app/home/models/Article.php',
+        'Helper' => __DIR__ . '/../..' . '/system/Helper.php',
         'HomeController' => __DIR__ . '/../..' . '/app/home/controllers/HomeController.php',
         'ShareControllers' => __DIR__ . '/../..' . '/app/home/controllers/ShareControllers.php',
     );

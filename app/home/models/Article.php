@@ -12,7 +12,7 @@ class Article
     public static function first()
     {
 
-        require BASE_PATH.'/config/data.inc.php';
+        require CONFIG_PATH.'data.inc.php';
 
         $db = $data->select("admin", [
             "id",

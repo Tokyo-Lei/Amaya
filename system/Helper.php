@@ -812,7 +812,7 @@ class Helper
 		 * 删除目录
 		 * @param string $path
 		 */
-		static public function delDir($path) {
+		static public function deelDir($path) {
 			if (is_dir($path)) rmdir($path);
 		}
 

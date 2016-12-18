@@ -7,5 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'c7359326b6707d98bdc176bf9ddeaebf' => $vendorDir . '/catfan/medoo/medoo.php',
-    '0220e143b2fcd1360b11a537000cb297' => $baseDir . '/system/random_string.php',
+    '45dbb9c2191f3c04de49704b75813547' => $baseDir . '/system/Helper.php',
 );
