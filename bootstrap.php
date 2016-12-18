@@ -31,7 +31,7 @@ $conn = require CONFIG_PATH.'config.inc.php';
 date_default_timezone_set($conn['time_zone']);
 
 //载入路由
-require CONFIG_PATH.'route.inc.php';
+require APP_PATH.'route.php';
 
 
 
