@@ -4,7 +4,10 @@
 <a href="http://opensource.org/licenses/MIT"><img src="https://camo.githubusercontent.com/890acbdcb87868b382af9a4b1fac507b9659d9bf/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d626c75652e737667" alt="License" data-canonical-src="https://img.shields.io/badge/license-MIT-blue.svg" style="max-width:100%;"></a></p>
 
 
-基于Composer完成的MVC框架,自从有了依赖变成史上最最最简单的MVC！。
+ ![image](https://github.com/Tokyo-Lei/tokyo-lei.github.io/blob/master/logo.png)
+<br>
+
+基于Composer完成的MVC框架,自从有了依赖变成史上最最最简单的MVC！
 
 此框架依赖第三方库：
 
@@ -43,7 +46,7 @@ composer create-project tokyo-lei/amaya 您的目录名称 dev-master --prefer-d
 ```html
    ├─app 程序前后端放置文件
       └─ admin 后端文件
-      └─home 前端文件
+      └─ home 前端文件
    ├─config 各种配置
    ├─public 域名绑定目录，包括所有图片样式放置文件
    ├─system 各种函数、类目录，注意！没有核心文件 ：D
@@ -51,6 +54,7 @@ composer create-project tokyo-lei/amaya 您的目录名称 dev-master --prefer-d
    bootstrap.php 框架的各种加载启动文件
    composer.json  composer 配置文件，是框架重点的东西
    composer.lock composer 锁定文件 具体使用自行百度。
+   README.md  github的介绍（可以删除）
 ```
 当下载后，目录自动生成几个文件：
 ```html
