@@ -25,10 +25,8 @@ $whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
 $whoops->register();
 
 
-//载入网站配置
-$conn = require CONFIG_PATH.'config.inc.php';
 //时间
-date_default_timezone_set($conn['time_zone']);
+date_default_timezone_set(Amaya::get('config.time_zone'));
 
 //载入路由
 require APP_PATH.'route.php';
@@ -48,8 +46,3 @@ $monolog->pushHandler(new \Monolog\Handler\StreamHandler(BASE_PATH.'/logs/app.lo
 if (!is_dir(BASE_PATH.'/cache/')) {
     mkdir(BASE_PATH.'/cache/', 0700);
 }
-
-
-
-//TWIG模板
-Twig_Autoloader::register();

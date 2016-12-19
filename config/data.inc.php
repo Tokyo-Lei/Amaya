@@ -6,7 +6,7 @@
  * Time: 9:34
  */
 
-$data = new medoo([
+return[
     // required
     'database_type' => 'mysql',
     'database_name' => 'amaya',
@@ -21,4 +21,4 @@ $data = new medoo([
     // [optional] Table prefix
     'prefix' => 'amaya_',
 
-]);
+];

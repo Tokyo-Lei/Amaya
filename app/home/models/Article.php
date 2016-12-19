@@ -12,9 +12,9 @@ class Article
     public static function first()
     {
 
-        require CONFIG_PATH.'data.inc.php';
+        $database = new medoo(Amaya::get('data.'));
 
-        $db = $data->select("admin", [
+        $db = $database->select("admin", [
             "id",
             "user_name"
         ]);

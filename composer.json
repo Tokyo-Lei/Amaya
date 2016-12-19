@@ -20,10 +20,10 @@
         "classmap": [
             "app/home/controllers",
             "app/home/models",
-            "system"
         ],
         "files":[
-            "system/Helper.php"
+            "system/Helper.php",
+            "system/Amaya.php"
         ]
     },
     "minimum-stability": "dev"
