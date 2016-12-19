@@ -1,6 +1,6 @@
 # Amaya PHP Framework
 
-<p><a href="#" target="_blank"><img src="https://img.shields.io/badge/version-0.1.1-green.svg" alt="Version" data-canonical-src="https://img.shields.io/badge/version-0.1.1-green.svg" style="max-width:100%;"></a>
+<p><a href="#" target="_blank"><img src="https://img.shields.io/badge/version-0.1-green.svg" alt="Version" data-canonical-src="https://img.shields.io/badge/version-0.1-green.svg" style="max-width:100%;"></a>
 <a href="http://opensource.org/licenses/MIT"><img src="https://camo.githubusercontent.com/890acbdcb87868b382af9a4b1fac507b9659d9bf/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d626c75652e737667" alt="License" data-canonical-src="https://img.shields.io/badge/license-MIT-blue.svg" style="max-width:100%;"></a></p>
 
 
@@ -50,9 +50,7 @@ composer update
       └─ data.inc.php    Medoo 数据配置文件
    ├─public              域名绑定目录，包括所有图片样式放置文件夹
    ├─system              核心文件、各种函数
-       └─ Arr.php        Laravel 数组类
        └─ Helper.php     函数助手
-       └─ Amaya.php      核心类（只做了config全局变量）
    .gitignore            git上传过滤文件 （可以删除）
    bootstrap.php         框架的各种加载启动文件
    composer.json         composer 配置文件，是框架重点的东西
