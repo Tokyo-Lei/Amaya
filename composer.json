@@ -3,6 +3,7 @@
     "description": "Development based on composer For Amaya PHP Framework",
     "type": "project",
     "require": {
+        "php": "^5.3.3 || ^7.0",
         "catfan/Medoo": "^1.1",
         "filp/whoops": "^2.1",
         "monolog/monolog": "^1.22",
