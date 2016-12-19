@@ -68,7 +68,8 @@ composer update
 ## 感谢
 Beijing . 冷雪峰<br>
 Guangzhou . 汶<br>
-Beijing . 向军
+Beijing . 向军<br>
+Sanming .Member 
 
 此框架继续更新中！<br>
 有疑问电邮：kyomini@qq.com
