@@ -64,6 +64,50 @@ composer update
 ```
 
 
+##路由配置
+IIS规则：
+```html
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<system.webServer>
+		<!--
+		For rewrite to work install URL Rewrite Module via Web Platform Installer
+		-->
+		<rewrite>
+			<rules>
+				<rule name="Macaw" patternSyntax="Wildcard">
+					<match url="*" />
+					<conditions>
+						<add input="{REQUEST_FILENAME}" matchType="IsFile" negate="true" />
+						<add input="{REQUEST_FILENAME}" matchType="IsDirectory" negate="true" />
+					</conditions>
+					<action type="Rewrite" url="index.php" />
+				</rule>
+			</rules>
+		</rewrite>
+	</system.webServer>
+</configuration>
+```
+<br>
+Apache规则(.htaccess)：
+```html
+RewriteEngine On
+RewriteBase /macaw
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^.*$ index.php [L]
+```
+<br>
+Nginx规则（nginx.conf）：
+```html
+autoindex off;
+
+location / {
+	try_files $uri $uri/ /index.php?/$uri;
+}
+```
 
 ## 感谢
 Beijing . 冷雪峰<br>
