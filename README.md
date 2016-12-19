@@ -64,7 +64,7 @@ composer update
 ```
 
 
-##路由配置
+##路由隐藏index.php
 IIS规则：
 ```html
 <?xml version="1.0" encoding="UTF-8"?>
