@@ -4,7 +4,7 @@
     "type": "project",
     "require": {
         "php": "^5.3.3 || ^7.0",
-        "catfan/Medoo": "^1.1",
+        "catfan/Medoo": "*",
         "filp/whoops": "^2.1",
         "monolog/monolog": "^1.22",
         "noahbuscher/macaw": "dev-master",
@@ -25,7 +25,8 @@
         ],
         "files":[
             "system/Helper.php",
-            "system/Amaya.php"
+            "system/Amaya.php",
+            "system/Redis.php"
         ]
     },
     "minimum-stability": "dev"
