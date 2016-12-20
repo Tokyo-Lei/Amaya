@@ -39,6 +39,18 @@ composer update
 最后，PHP服务器环境请对应public文件跑起。
 
 
+
+## 目录架构
+* 新增redis缓存类
+# 修正Medoo第三库问题
+
+
+
+
+
+
+
+
 ## 目录架构
 ```html
    ├─app                 前后端文件夹
