@@ -19,4 +19,12 @@ class HomeController extends ShareControllers
 
     }
 
+        public function demo()
+    {
+
+     Redis::set('key','缓存测试',1,'h');
+     echo Redis::get('key');
+
+    }
+
 }
