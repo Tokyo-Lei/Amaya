@@ -20,7 +20,7 @@
     "autoload": {
         "classmap": [
             "app/home/controllers",
-            "app/home/models",
+            "app/home/models"
         ],
         "files":[
             "system/Helper.php",
