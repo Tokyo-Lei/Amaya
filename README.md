@@ -28,7 +28,7 @@ macaw 路由
 如果了解composer工具的，输入：
 
 ```html
-composer create-project tokyo-lei/amaya 您的目录名称 dev-master --prefer-dist
+composer create-project tokyo-lei/amaya 您的目录名称 0.1.1.x-dev --prefer-dist
 ```
 
 然后进行依赖下载（包括解压缩必须用composer工具执行）：
