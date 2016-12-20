@@ -19,4 +19,9 @@ Macaw::get('/word.html', function() {
 Macaw::get('/home.html', 'HomeController@Index');
 
 
+//加载Redis测试
+Macaw::get('/demo.html', 'HomeController@demo');
+
+
+
 Macaw::dispatch();
