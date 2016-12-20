@@ -65,6 +65,7 @@ composer update
        └─ Arr.php        Laravel 数组类
        └─ Helper.php     函数助手
        └─ Amaya.php      核心类（只做了config全局变量）
+       └─ Redis.php      缓存函数类
    .gitignore            git上传过滤文件 （可以删除）
    bootstrap.php         框架的各种加载启动文件
    composer.json         composer 配置文件，是框架重点的东西
