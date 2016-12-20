@@ -40,7 +40,7 @@ composer update
 
 
 
-## 目录架构
+## 更新日志
 * 新增redis缓存类<br>
 * 修正Medoo第三库问题
 
