@@ -46,3 +46,8 @@ $monolog->pushHandler(new \Monolog\Handler\StreamHandler(BASE_PATH.'/logs/app.lo
 if (!is_dir(BASE_PATH.'/cache/')) {
     mkdir(BASE_PATH.'/cache/', 0700);
 }
+
+
+//检测敏感字符并删除，检测自定义全局变量并移除
+Amaya::removeMagicQuotes();
+Amaya::unregisterGlobals();
