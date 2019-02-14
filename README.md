@@ -93,6 +93,7 @@ RewriteRule ^.*$ index.php [L]
 ```
 <br>
 Nginx规则（nginx.conf）：
+
 ```html
 autoindex off;
 
